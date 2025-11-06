@@ -103,13 +103,13 @@ def display():
     for cell_row in board:
         for cell in cell_row:
             if cell == CELL_EMPTY:
-                print("   ", end="")
+                print(" ", end="")
             elif cell == CELL_NOT_EXIST:
-                print("---", end="")
+                print("-", end="")
             elif cell == CELL_CASTLE_W:
-                print("[w]", end="")
+                print("w", end="")
             elif CELL_CASTLE_B:
-                print("[b]", end="")
+                print("b", end="")
         print()
 
 
